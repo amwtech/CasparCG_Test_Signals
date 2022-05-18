@@ -7,7 +7,7 @@ In the 15 second duration test most of each screen is black apart from burnt-in 
 
 Within the five sets of 15 second duration signals, there are versions created using different timebases. Each signal is available as a zipped uncompressed 8-bit test and an intra-frame compressed version. These temporal tests can only work fully if compressed versions use an intra codec. Each signal has two audio tracks with continuous tone of 330 Hz. This frequency allows seamless looping of the test signal when testing for audio issues. It is very important that any replacement tone has a non-integer number of cycles per frame so that dropped or repeated frames can be detected, but there must be an integer number of cycles in the 5 second clip.
 
-The sixth set of test signals do not include the timecode overlay, and last for 4 seconds. They are only available using ProRes 422 intra-frame codec. The audio is continuous tone at 312.5 Hz, chosen so that if a 20ms video is not dropped or repeated there is a 90 degree phase shift in the recording, a loss or repeat of 40 ms of content has a 180 degree phase shift. This abrupt phase change creates an easy to hear disturbance.
+The sixth set of test signals do not include the timecode overlay, and last for 4 seconds. They are only available using ProRes 422 intra-frame codec. The audio is continuous tone at 312.5 Hz, chosen so that if a 20ms video element is dropped or repeated there is a 90 degree phase shift in the recording, a loss or repeat of 40 ms of content has a 180 degree phase shift. This abrupt phase change creates an easy to hear disturbance.
 
 ![Source_Patterns](https://user-images.githubusercontent.com/86308191/168492129-9ea3a426-b216-4b24-915b-cedd15c3d6a3.png)
 
