@@ -47,7 +47,7 @@ File names: CCGT_01_Src_1080p50.mov and CCGT_01_Src_1080p50_AVCIntra100.mxf
 
 Each frame is progressive scanned with a total of 1080 active lines. CasparCG channels should pass this signal transparently when the channel mode is set as 1080p5000.
 
-__Test set 6___
+__Test set 6__
 
 File names:
 
@@ -56,3 +56,8 @@ CCGT_01_Src_1080i25_4sec.mov   to test interlaced 1080/i25 looping
 CCGT_01_Src_1080p25_4sec.mov   to test progressive 1080/p25 looping
 
 CCGT_01_Src_1080p50_4sec.mov   to test progressive 1080p50 looping
+
+__Audio Video Sync Test__
+File Name: FlashSplat60s.mov.zip
+
+This test has an audio blip co-timed with a white bar on one frame in 10. It allows the relative timing of the audio and video processing routes to be tested. The file is a 1080i50 scan format.
